@@ -1,0 +1,425 @@
+{
+  "African Violet (Saintpaulia ionantha)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Well-drained, slightly acidic soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks"
+    },
+    "notes": "Avoid wetting leaves to prevent rot."
+  },
+  "Aloe Vera": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water deeply but infrequently (every 2-3 weeks)",
+      "soil": "Sandy, well-draining cactus mix",
+      "fertilizer": "Once a month during growing season"
+    },
+    "notes": "Do not overwater, prone to root rot."
+  },
+  "Anthurium (Anthurium andraeanum)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly, keep soil moist",
+      "soil": "Well-draining peat-based soil",
+      "fertilizer": "High-phosphorus fertilizer every 6 weeks"
+    },
+    "notes": "Keep humidity high for better growth."
+  },
+  "Areca Palm (Dypsis lutescens)": {
+    "growth": {
+      "sunlight": "Indirect, bright light",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-drained potting soil",
+      "fertilizer": "Liquid fertilizer monthly"
+    },
+    "notes": "Prune yellow leaves to encourage new growth."
+  },
+  "Asparagus Fern (Asparagus setaceus)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water 2-3 times a week",
+      "soil": "Rich, well-drained soil",
+      "fertilizer": "Balanced liquid fertilizer monthly"
+    },
+    "notes": "Likes high humidity."
+  },
+  "Begonia (Begonia spp.)": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Keep soil slightly moist",
+      "soil": "Well-drained, light soil",
+      "fertilizer": "Diluted fertilizer every 2 weeks"
+    },
+    "notes": "Avoid direct sunlight to prevent leaf burn."
+  },
+  "Bird of Paradise (Strelitzia reginae)": {
+    "growth": {
+      "sunlight": "Bright, direct sunlight 4-6 hours",
+      "water": "Water when top 2 inches soil dry",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks in summer"
+    },
+    "notes": "Can grow tall, requires space."
+  },
+  "Birds Nest Fern (Asplenium nidus)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Keep soil moist, water weekly",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Diluted fertilizer every 2 weeks"
+    },
+    "notes": "Avoid watering center rosette."
+  },
+  "Boston Fern (Nephrolepis exaltata)": {
+    "growth": {
+      "sunlight": "Indirect, medium light",
+      "water": "Keep soil consistently moist",
+      "soil": "Rich, peat-based soil",
+      "fertilizer": "Liquid fertilizer monthly"
+    },
+    "notes": "Needs high humidity."
+  },
+  "Calathea": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water weekly, keep soil moist",
+      "soil": "Well-draining potting soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Leaves curl when underwatered."
+  },
+  "Cast Iron Plant (Aspidistra elatior)": {
+    "growth": {
+      "sunlight": "Low light tolerant",
+      "water": "Water every 2 weeks",
+      "soil": "Well-drained potting mix",
+      "fertilizer": "Balanced fertilizer every 2 months"
+    },
+    "notes": "Very hardy and low maintenance."
+  },
+  "Chinese Money Plant (Pilea peperomioides)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly",
+      "soil": "Well-drained potting soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Rotate plant regularly for even growth."
+  },
+  "Chinese evergreen (Aglaonema)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Slow-release fertilizer every 6 weeks"
+    },
+    "notes": "Tolerates low light well."
+  },
+  "Christmas Cactus (Schlumbergera bridgesii)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water every 2 weeks, less in winter",
+      "soil": "Well-drained cactus mix",
+      "fertilizer": "Fertilize monthly during growth"
+    },
+    "notes": "Flowers during winter."
+  },
+  "Chrysanthemum": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Keep soil evenly moist",
+      "soil": "Rich, well-drained soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks"
+    },
+    "notes": "Pinch stems for bushier growth."
+  },
+  "Ctenanthe": {
+    "growth": {
+      "sunlight": "Indirect, medium light",
+      "water": "Water weekly",
+      "soil": "Moist, well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Leaves fold at night."
+  },
+  "Daffodils (Narcissus spp.)": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Water weekly during growth",
+      "soil": "Well-drained soil",
+      "fertilizer": "Bulb fertilizer once in spring"
+    },
+    "notes": "Toxic if ingested."
+  },
+  "Dracaena": {
+    "growth": {
+      "sunlight": "Indirect, medium light",
+      "water": "Water every 2-3 weeks",
+      "soil": "Well-drained soil",
+      "fertilizer": "Balanced fertilizer every 6 weeks"
+    },
+    "notes": "Avoid fluoride in water."
+  },
+  "Dumb Cane (Dieffenbachia spp.)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly",
+      "soil": "Moist, well-drained soil",
+      "fertilizer": "Liquid fertilizer monthly"
+    },
+    "notes": "Toxic if eaten."
+  },
+  "Elephant Ear (Alocasia spp.)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Fertilize bi-weekly in summer"
+    },
+    "notes": "Needs high humidity."
+  },
+  "English Ivy (Hedera helix)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Can be invasive outdoors."
+  },
+  "Hyacinth (Hyacinthus orientalis)": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Water weekly while growing",
+      "soil": "Well-drained soil",
+      "fertilizer": "Bulb fertilizer once per season"
+    },
+    "notes": "Fragrant flowers."
+  },
+  "Iron Cross begonia (Begonia masoniana)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist",
+      "soil": "Well-drained soil",
+      "fertilizer": "Diluted fertilizer monthly"
+    },
+    "notes": "Avoid direct sun."
+  },
+  "Jade plant (Crassula ovata)": {
+    "growth": {
+      "sunlight": "Bright, direct sunlight",
+      "water": "Water every 2-3 weeks",
+      "soil": "Cactus soil, well-drained",
+      "fertilizer": "Fertilize every 2 months"
+    },
+    "notes": "Symbol of prosperity."
+  },
+  "Kalanchoe": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water every 2 weeks",
+      "soil": "Well-drained cactus mix",
+      "fertilizer": "Fertilize monthly"
+    },
+    "notes": "Blooms in winter."
+  },
+  "Lilium (Hemerocallis)": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Water weekly",
+      "soil": "Well-draining soil",
+      "fertilizer": "Fertilize every 2 weeks during growth"
+    },
+    "notes": "Toxic to cats."
+  },
+  "Lily of the valley (Convallaria majalis)": {
+    "growth": {
+      "sunlight": "Partial shade",
+      "water": "Keep soil moist",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Balanced fertilizer in spring"
+    },
+    "notes": "Highly toxic if ingested."
+  },
+  "Money Tree (Pachira aquatica)": {
+    "growth": {
+      "sunlight": "Indirect bright light",
+      "water": "Water weekly",
+      "soil": "Well-drained soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Often grown braided."
+  },
+  "Monstera Deliciosa (Monstera deliciosa)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Leaves develop natural holes."
+  },
+  "Orchid": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly",
+      "soil": "Orchid bark mix",
+      "fertilizer": "Orchid fertilizer every 2 weeks"
+    },
+    "notes": "Avoid overwatering."
+  },
+  "Parlor Palm (Chamaedorea elegans)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Diluted fertilizer monthly"
+    },
+    "notes": "Very popular indoor palm."
+  },
+  "Peace lily": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Keep soil moist",
+      "soil": "Well-draining soil",
+      "fertilizer": "Fertilize every 6 weeks"
+    },
+    "notes": "Cleans indoor air."
+  },
+  "Poinsettia (Euphorbia pulcherrima)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Popular in Christmas season."
+  },
+  "Polka Dot Plant (Hypoestes phyllostachya)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-drained soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks"
+    },
+    "notes": "Leaves lose color in low light."
+  },
+  "Ponytail Palm (Beaucarnea recurvata)": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water every 2-3 weeks",
+      "soil": "Sandy, well-draining soil",
+      "fertilizer": "Fertilize monthly in summer"
+    },
+    "notes": "Stores water in its bulbous trunk."
+  },
+  "Pothos (Ivy arum)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Fertilize monthly"
+    },
+    "notes": "Very hardy, easy to grow."
+  },
+  "Prayer Plant (Maranta leuconeura)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water weekly",
+      "soil": "Moist, well-drained soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks"
+    },
+    "notes": "Leaves fold at night."
+  },
+  "Rattlesnake Plant (Calathea lancifolia)": {
+    "growth": {
+      "sunlight": "Indirect, medium light",
+      "water": "Keep soil moist",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Beautiful patterned leaves."
+  },
+  "Rubber Plant (Ficus elastica)": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Wipe leaves to remove dust."
+  },
+  "Sago Palm (Cycas revoluta)": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water when soil is dry",
+      "soil": "Sandy, well-draining soil",
+      "fertilizer": "Palm fertilizer every 2 months"
+    },
+    "notes": "Toxic if ingested."
+  },
+  "Schefflera": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water weekly",
+      "soil": "Well-draining soil",
+      "fertilizer": "Fertilize every 2 weeks"
+    },
+    "notes": "Also called umbrella plant."
+  },
+  "Snake plant (Sanseviera)": {
+    "growth": {
+      "sunlight": "Low to bright indirect light",
+      "water": "Water every 2-3 weeks",
+      "soil": "Well-draining cactus mix",
+      "fertilizer": "Fertilize every 2 months"
+    },
+    "notes": "Air-purifying and hardy."
+  },
+  "Tradescantia": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water weekly",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "notes": "Vibrant trailing plant."
+  },
+  "Tulip": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Water weekly during growth",
+      "soil": "Well-draining soil",
+      "fertilizer": "Bulb fertilizer once per season"
+    },
+    "notes": "Spring-blooming flower."
+  },
+  "Venus Flytrap": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Use distilled water only, keep soil moist",
+      "soil": "Peat moss and sand mix",
+      "fertilizer": "Do not fertilize, feeds on insects"
+    },
+    "notes": "Unique carnivorous plant."
+  },
+  "Yucca": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Water every 2-3 weeks",
+      "soil": "Sandy, well-draining soil",
+      "fertilizer": "Fertilize every 2 months"
+    },
+    "notes": "Very drought-tolerant."
+  },
+  "ZZ Plant (Zamioculcas zamiifolia)": {
+    "growth": {
+      "sunlight": "Low to bright indirect light",
+      "water": "Water every 2-3 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Balanced fertilizer every 2 months"
+    },
+    "notes": "Very hardy and low maintenance."
+  }
+}
