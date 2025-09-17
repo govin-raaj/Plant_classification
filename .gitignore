@@ -1,4 +1,5 @@
 data/house_plant_species
-models/1.keras
+models/
 training/plant_classifier_cnn.h5
+data/
 
