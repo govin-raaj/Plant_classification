@@ -9,7 +9,7 @@ import io
 from PIL import Image
 
 # Load trained model
-model = load_model("../models/3.keras")  # <-- change if your file has a different name
+model = load_model("../models/4.keras")  # <-- change if your file has a different name
 
 image_size = 224
 
