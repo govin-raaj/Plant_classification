@@ -2,4 +2,6 @@ data/house_plant_species
 models/
 training/plant_classifier_cnn.h5
 data/
-
+training/runs
+training/yolo11n.pt
+training/yolov8n-cls.pt
