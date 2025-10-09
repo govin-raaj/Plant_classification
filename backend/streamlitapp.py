@@ -17,7 +17,7 @@ model = load_model()
 st.title("🌱 Plant Species Classifier")
 st.write("Upload an image of a plant and the model will predict its species.")
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose an image.", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     img = Image.open(uploaded_file).convert("RGB")
