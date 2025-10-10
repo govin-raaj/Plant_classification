@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
+from backend.plant_api import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 import uvicorn
 import numpy as np
