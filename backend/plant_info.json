@@ -1,0 +1,615 @@
+{
+  "African Violet (Saintpaulia ionantha)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Well-drained, slightly acidic soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks"
+    },
+    "diseases": {
+      "Powdery Mildew": "White fungus on leaves. Solution: Improve airflow, apply fungicide.",
+      "Root Rot": "Overwatering causes brown roots. Solution: Repot with fresh soil, reduce watering."
+    },
+    "notes": "Avoid wetting leaves to prevent rot."
+  },
+  "Aloe Vera": {
+    "growth": {
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water every 2-3 weeks, allow soil to dry",
+      "soil": "Sandy, well-draining cactus mix",
+      "fertilizer": "Once a month in growing season"
+    },
+    "diseases": {
+      "Root Rot": "From overwatering. Solution: Dry soil, repot.",
+      "Leaf Spot": "Fungal spots. Solution: Remove infected leaves, use neem oil."
+    },
+    "notes": "Do not overwater, prone to root rot."
+  },
+  "Anthurium (Anthurium andraeanum)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Weekly, keep soil moist",
+      "soil": "Well-draining peat-based soil",
+      "fertilizer": "High-phosphorus every 6 weeks"
+    },
+    "diseases": {
+      "Bacterial Blight": "Yellowing leaves with spots. Solution: Remove infected leaves, apply copper fungicide.",
+      "Root Rot": "Waterlogging issue. Solution: Improve drainage, repot."
+    },
+    "notes": "High humidity improves flowering."
+  },
+  "Areca Palm (Dypsis lutescens)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water once topsoil dries",
+      "soil": "Sandy loam, well-drained",
+      "fertilizer": "Palm fertilizer every 2 months"
+    },
+    "diseases": {
+      "Leaf Spot": "Brown patches. Solution: Apply fungicide, avoid overhead watering.",
+      "Bud Rot": "Rotting crown. Solution: Cut infected part, improve airflow."
+    },
+    "notes": "Wipe leaves to avoid dust blocking pores."
+  },
+  "Asparagus Fern (Asparagus setaceus)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil evenly moist",
+      "soil": "Well-draining potting soil",
+      "fertilizer": "Monthly during growth"
+    },
+    "diseases": {
+      "Root Rot": "Due to overwatering. Solution: Repot and reduce watering.",
+      "Rust": "Orange fungal spores. Solution: Use fungicide spray."
+    },
+    "notes": "Prune regularly to maintain shape."
+  },
+  "Begonia (Begonia spp.)": {
+    "growth": {
+      "sunlight": "Filtered, bright light",
+      "water": "Water when topsoil dries",
+      "soil": "Loose, well-draining soil",
+      "fertilizer": "Every 2 weeks with balanced fertilizer"
+    },
+    "diseases": {
+      "Powdery Mildew": "White coating on leaves. Solution: Neem oil spray.",
+      "Botrytis": "Gray mold on flowers. Solution: Improve ventilation, fungicide."
+    },
+    "notes": "Avoid water on leaves."
+  },
+  "Bird of Paradise (Strelitzia reginae)": {
+    "growth": {
+      "sunlight": "Full sun to partial shade",
+      "water": "Weekly, allow topsoil to dry",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "diseases": {
+      "Leaf Spot": "Fungal infection. Solution: Remove infected leaves, fungicide spray.",
+      "Root Rot": "Caused by soggy soil. Solution: Repot and improve drainage."
+    },
+    "notes": "Large leaves need occasional cleaning."
+  },
+  "Birds Nest Fern (Asplenium nidus)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Rich, organic, well-draining soil",
+      "fertilizer": "Liquid fertilizer monthly"
+    },
+    "diseases": {
+      "Leaf Spot": "Brown patches. Solution: Fungicide spray.",
+      "Crown Rot": "Caused by water in leaf center. Solution: Avoid overhead watering."
+    },
+    "notes": "Do not water directly into the crown."
+  },
+  "Boston Fern (Nephrolepis exaltata)": {
+    "growth": {
+      "sunlight": "Indirect, bright light",
+      "water": "Keep soil evenly moist",
+      "soil": "Peat moss-based, well-draining",
+      "fertilizer": "Every 2 weeks in summer"
+    },
+    "diseases": {
+      "Root Rot": "Excess water causes decay. Solution: Repot with dry soil.",
+      "Leaf Blight": "Brown, crispy fronds. Solution: Increase humidity."
+    },
+    "notes": "Mist regularly to maintain humidity."
+  },
+  "Calathea": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Keep soil moist",
+      "soil": "Rich, well-drained soil",
+      "fertilizer": "Every 2 weeks in spring/summer"
+    },
+    "diseases": {
+      "Leaf Spot": "Fungal/bacterial spots. Solution: Neem oil spray.",
+      "Root Rot": "Due to soggy soil. Solution: Repot in drier mix."
+    },
+    "notes": "Avoid tap water, use filtered water."
+  },
+  "Cast Iron Plant (Aspidistra elatior)": {
+    "growth": {
+      "sunlight": "Low to medium light",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-drained loamy soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "diseases": {
+      "Leaf Spot": "Brown/black spots. Solution: Remove affected leaves, use fungicide.",
+      "Root Rot": "Overwatering issue. Solution: Improve drainage."
+    },
+    "notes": "Very tolerant, low-maintenance plant."
+  },
+  "Chinese Money Plant (Pilea peperomioides)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly, allow soil to dry slightly",
+      "soil": "Well-draining potting mix",
+      "fertilizer": "Monthly in growing season"
+    },
+    "diseases": {
+      "Root Rot": "Yellow leaves, mushy roots. Solution: Repot, reduce watering.",
+      "Leaf Curl": "Caused by pests or stress. Solution: Neem oil, proper care."
+    },
+    "notes": "Rotate pot weekly for even growth."
+  },
+  "Chinese evergreen (Aglaonema)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water when top 2 inches dry",
+      "soil": "Well-draining potting soil",
+      "fertilizer": "Balanced fertilizer every 6 weeks"
+    },
+    "diseases": {
+      "Leaf Spot": "Yellow/brown spots. Solution: Neem oil, remove leaves.",
+      "Root Rot": "Caused by soggy soil. Solution: Repot in well-drained mix."
+    },
+    "notes": "Avoid cold drafts."
+  },
+  "Christmas Cactus (Schlumbergera bridgesii)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water when soil is dry halfway",
+      "soil": "Sandy, well-draining soil",
+      "fertilizer": "Every 2-4 weeks during growth"
+    },
+    "diseases": {
+      "Root Rot": "From overwatering. Solution: Repot with drier soil.",
+      "Botrytis": "Gray mold on stems. Solution: Improve ventilation, fungicide."
+    },
+    "notes": "Promote flowering by reducing water before blooming."
+  },
+  "Chrysanthemum": {
+    "growth": {
+      "sunlight": "Full sun",
+      "water": "Keep soil evenly moist",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "High-potassium fertilizer every 2 weeks"
+    },
+    "diseases": {
+      "Powdery Mildew": "White coating. Solution: Neem oil spray.",
+      "Rust": "Orange pustules. Solution: Fungicide treatment."
+    },
+    "notes": "Pinch tips for bushy growth."
+  },
+  "Ctenanthe": {
+    "growth": {
+      "sunlight": "Medium to low indirect light",
+      "water": "Keep soil moist",
+      "soil": "Rich, peat-based soil",
+      "fertilizer": "Monthly liquid fertilizer"
+    },
+    "diseases": {
+      "Leaf Spot": "Causes brown patches. Solution: Remove affected leaves.",
+      "Root Rot": "Waterlogged soil issue. Solution: Repot in airy soil."
+    },
+    "notes": "Needs high humidity."
+  },
+  "Daffodils (Narcissus spp.)": {
+    "growth": {
+      "sunlight": "Full to partial sun",
+      "water": "Water during active growth, dry in dormancy",
+      "soil": "Well-drained sandy soil",
+      "fertilizer": "Balanced bulb fertilizer at planting"
+    },
+    "diseases": {
+      "Basal Rot": "Bulb rot. Solution: Use fungicide, plant in dry soil.",
+      "Narcissus Smoulder": "Gray mold. Solution: Remove infected plants."
+    },
+    "notes": "Do not cut leaves until they yellow naturally."
+  },
+  "Dracaena": {
+    "growth": {
+      "sunlight": "Indirect light, low-light tolerant",
+      "water": "Water every 1-2 weeks",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during growing season"
+    },
+    "diseases": {
+      "Leaf Spot": "Brown patches. Solution: Neem oil spray.",
+      "Root Rot": "Caused by overwatering. Solution: Repot, reduce watering."
+    },
+    "notes": "Sensitive to fluoride in tap water."
+  },
+  "Dumb Cane (Dieffenbachia spp.)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist, not soggy",
+      "soil": "Well-draining potting mix",
+      "fertilizer": "Balanced fertilizer every 6 weeks"
+    },
+    "diseases": {
+      "Bacterial Leaf Spot": "Yellow/brown spots. Solution: Remove leaves, copper spray.",
+      "Root Rot": "Soggy soil issue. Solution: Repot in fresh mix."
+    },
+    "notes": "Toxic if ingested, keep away from pets."
+  },
+  "Elephant Ear (Alocasia spp.)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist, avoid dryness",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Every 2 weeks in growing season"
+    },
+    "diseases": {
+      "Leaf Spot": "Dark lesions on leaves. Solution: Use fungicide.",
+      "Root Rot": "Due to soggy soil. Solution: Improve drainage."
+    },
+    "notes": "High humidity needed."
+  },
+  "English Ivy (Hedera helix)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil slightly moist",
+      "soil": "Well-draining potting soil",
+      "fertilizer": "Balanced fertilizer every 2 weeks in summer"
+    },
+    "diseases": {
+      "Spider Mites": "Causes leaf yellowing. Solution: Neem oil spray.",
+      "Leaf Spot": "Brown patches. Solution: Remove leaves, apply fungicide."
+    },
+    "notes": "Can trail or climb; prune regularly."
+  },
+  "Hyacinth (Hyacinthus orientalis)": {
+    "growth": {
+      "sunlight": "Full sun to partial shade",
+      "water": "Water during growth, reduce after flowering",
+      "soil": "Well-drained sandy soil",
+      "fertilizer": "Bulb fertilizer at planting"
+    },
+    "diseases": {
+      "Gray Mold": "Fuzzy mold on flowers. Solution: Improve airflow, fungicide.",
+      "Basal Rot": "Bulb rot. Solution: Discard infected bulbs."
+    },
+    "notes": "Fragrant spring-blooming bulb."
+  },
+  "Iron Cross begonia (Begonia masoniana)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist, not soggy",
+      "soil": "Peat-based, well-draining soil",
+      "fertilizer": "Monthly diluted fertilizer"
+    },
+    "diseases": {
+      "Powdery Mildew": "White powder on leaves. Solution: Neem oil.",
+      "Root Rot": "Caused by waterlogging. Solution: Repot with airy soil."
+    },
+    "notes": "Distinctive cross pattern on leaves."
+  },
+  "Jade plant (Crassula ovata)": {
+    "growth": {
+      "sunlight": "Bright, direct light",
+      "water": "Water deeply, allow soil to dry",
+      "soil": "Sandy, well-draining soil",
+      "fertilizer": "Balanced fertilizer monthly"
+    },
+    "diseases": {
+      "Root Rot": "Due to overwatering. Solution: Let soil dry completely.",
+      "Mealybugs": "White cottony pests. Solution: Alcohol swab, neem oil."
+    },
+    "notes": "Popular succulent, considered a good luck plant."
+  },
+  "Kalanchoe": {
+    "growth": {
+      "sunlight": "Bright light, some direct sun",
+      "water": "Water when soil is dry",
+      "soil": "Sandy, cactus mix soil",
+      "fertilizer": "Monthly during blooming season"
+    },
+    "diseases": {
+      "Powdery Mildew": "White coating. Solution: Neem oil.",
+      "Root Rot": "Avoid excess watering. Solution: Repot with dry soil."
+    },
+    "notes": "Flowers in clusters, drought-tolerant."
+  },
+  "Lilium (Hemerocallis)": {
+    "growth": {
+      "sunlight": "Full sun to partial shade",
+      "water": "Consistent moisture during growth",
+      "soil": "Rich, well-drained soil",
+      "fertilizer": "High-potassium fertilizer every 2 weeks"
+    },
+    "diseases": {
+      "Botrytis Blight": "Spots on leaves. Solution: Fungicide, improve airflow.",
+      "Bulb Rot": "Waterlogged bulbs. Solution: Improve drainage."
+    },
+    "notes": "Tall, elegant blooms."
+  },
+  "Lily of the valley (Convallaria majalis)": {
+    "growth": {
+      "sunlight": "Partial to full shade",
+      "water": "Keep soil moist",
+      "soil": "Rich, well-draining soil",
+      "fertilizer": "Compost in spring"
+    },
+    "diseases": {
+      "Leaf Spot": "Dark patches. Solution: Remove leaves, apply fungicide.",
+      "Gray Mold": "Mold on flowers. Solution: Better airflow, fungicide."
+    },
+    "notes": "Fragrant white bells, toxic if ingested."
+  },
+  "Money Tree (Pachira aquatica)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly, let soil dry slightly",
+      "soil": "Peat-based, well-drained soil",
+      "fertilizer": "Every 2 weeks in growing season"
+    },
+    "diseases": {
+      "Root Rot": "Caused by soggy soil. Solution: Repot, less water.",
+      "Leaf Yellowing": "Overwatering. Solution: Adjust watering schedule."
+    },
+    "notes": "Often braided, considered a lucky plant."
+  },
+  "Monstera Deliciosa (Monstera deliciosa)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining peat mix",
+      "fertilizer": "Every 2-4 weeks in summer"
+    },
+    "diseases": {
+      "Root Rot": "Due to excess water. Solution: Repot with drier soil.",
+      "Leaf Spot": "Dark lesions. Solution: Neem oil spray."
+    },
+    "notes": "Known as Swiss Cheese Plant due to leaf holes."
+  },
+  "Orchid": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water weekly, allow roots to dry",
+      "soil": "Bark-based orchid mix",
+      "fertilizer": "Orchid fertilizer every 2 weeks"
+    },
+    "diseases": {
+      "Root Rot": "Waterlogged roots. Solution: Use well-draining medium.",
+      "Black Rot": "Dark, mushy leaves. Solution: Remove infected parts, fungicide."
+    },
+    "notes": "Epiphyte, needs good airflow."
+  },
+  "Parlor Palm (Chamaedorea elegans)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water when topsoil is dry",
+      "soil": "Peat-based potting mix",
+      "fertilizer": "Monthly balanced fertilizer"
+    },
+    "diseases": {
+      "Spider Mites": "Causes yellowing. Solution: Neem oil, increase humidity.",
+      "Root Rot": "Overwatering issue. Solution: Repot in well-draining soil."
+    },
+    "notes": "Air-purifying and low-maintenance palm."
+  },
+  "Peace lily": {
+    "growth": {
+      "sunlight": "Low to bright indirect light",
+      "water": "Keep soil evenly moist",
+      "soil": "Well-draining potting mix",
+      "fertilizer": "Monthly during growing season"
+    },
+    "diseases": {
+      "Yellow Leaves": "Overwatering. Solution: Adjust watering.",
+      "Fungal Leaf Spot": "Dark spots. Solution: Neem oil, remove infected leaves."
+    },
+    "notes": "Produces white blooms; good indoor air purifier."
+  },
+  "Poinsettia (Euphorbia pulcherrima)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Well-drained soil",
+      "fertilizer": "Every 2 weeks during growth"
+    },
+    "diseases": {
+      "Root Rot": "Caused by soggy soil. Solution: Improve drainage.",
+      "Whiteflies": "Sap-sucking insects. Solution: Insecticidal soap."
+    },
+    "notes": "Famous holiday plant with red bracts."
+  },
+  "Polka Dot Plant (Hypoestes phyllostachya)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water when soil is dry",
+      "soil": "Peat-rich soil",
+      "fertilizer": "Bi-weekly during growing season"
+    },
+    "diseases": {
+      "Root Rot": "Caused by overwatering. Solution: Allow soil to dry.",
+      "Aphids": "Sticky leaves. Solution: Neem oil or insecticidal soap."
+    },
+    "notes": "Colorful speckled foliage plant."
+  },
+  "Ponytail Palm (Beaucarnea recurvata)": {
+    "growth": {
+      "sunlight": "Bright, direct light",
+      "water": "Infrequent watering; drought tolerant",
+      "soil": "Sandy, cactus mix soil",
+      "fertilizer": "Monthly in summer"
+    },
+    "diseases": {
+      "Stem Rot": "Overwatering. Solution: Reduce watering, improve drainage.",
+      "Leaf Browning": "Low humidity. Solution: Mist leaves occasionally."
+    },
+    "notes": "Not a true palm; stores water in bulbous trunk."
+  },
+  "Pothos (Ivy arum)": {
+    "growth": {
+      "sunlight": "Low to bright indirect light",
+      "water": "Water when topsoil dries",
+      "soil": "Well-drained potting soil",
+      "fertilizer": "Every 4-6 weeks"
+    },
+    "diseases": {
+      "Root Rot": "Due to overwatering. Solution: Let soil dry out.",
+      "Mealybugs": "White pests. Solution: Alcohol swab, neem oil spray."
+    },
+    "notes": "Very hardy, ideal beginner indoor plant."
+  },
+  "Prayer Plant (Maranta leuconeura)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Peat-based soil with perlite",
+      "fertilizer": "Every 2 weeks in summer"
+    },
+    "diseases": {
+      "Leaf Curling": "Caused by low humidity. Solution: Mist regularly.",
+      "Root Rot": "Overwatering issue. Solution: Repot with airy soil."
+    },
+    "notes": "Folds leaves upward at night like praying hands."
+  },
+  "Rattlesnake Plant (Calathea lancifolia)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil consistently moist",
+      "soil": "Well-draining, peat-rich soil",
+      "fertilizer": "Monthly diluted fertilizer"
+    },
+    "diseases": {
+      "Leaf Spot": "Fungal patches. Solution: Remove leaves, use fungicide.",
+      "Brown Tips": "Caused by hard water. Solution: Use distilled water."
+    },
+    "notes": "Ornamental leaves with unique patterns."
+  },
+  "Rubber Plant (Ficus elastica)": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Allow topsoil to dry before watering",
+      "soil": "Well-drained potting soil",
+      "fertilizer": "Monthly in growing season"
+    },
+    "diseases": {
+      "Leaf Drop": "Caused by sudden light changes. Solution: Keep stable light.",
+      "Mealybugs": "Solution: Neem oil or alcohol swab."
+    },
+    "notes": "Glossy leaves, air-purifying plant."
+  },
+  "Sago Palm (Cycas revoluta)": {
+    "growth": {
+      "sunlight": "Bright, indirect to full sun",
+      "water": "Water deeply but infrequently",
+      "soil": "Sandy, well-drained soil",
+      "fertilizer": "Slow-release palm fertilizer"
+    },
+    "diseases": {
+      "Cycad Scale": "White spots on leaves. Solution: Neem oil spray.",
+      "Root Rot": "Excess water. Solution: Improve drainage."
+    },
+    "notes": "Toxic to pets if ingested."
+  },
+  "Schefflera": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining potting mix",
+      "fertilizer": "Monthly during spring and summer"
+    },
+    "diseases": {
+      "Leaf Drop": "Caused by low light or overwatering. Solution: Improve light, adjust watering.",
+      "Spider Mites": "Causes speckled leaves. Solution: Neem oil spray."
+    },
+    "notes": "Also called umbrella plant; very hardy."
+  },
+  "Snake plant (Sanseviera)": {
+    "growth": {
+      "sunlight": "Low to bright indirect light",
+      "water": "Water sparingly; drought tolerant",
+      "soil": "Cactus/succulent mix",
+      "fertilizer": "Once every 2-3 months"
+    },
+    "diseases": {
+      "Root Rot": "Overwatering problem. Solution: Use well-draining soil.",
+      "Mealybugs": "White fuzzy pests. Solution: Alcohol swab or neem oil."
+    },
+    "notes": "Excellent air purifier; nearly indestructible plant."
+  },
+  "Tradescantia": {
+    "growth": {
+      "sunlight": "Bright, indirect light",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Well-draining, peat-based soil",
+      "fertilizer": "Every 2 weeks in growing season"
+    },
+    "diseases": {
+      "Leaf Browning": "Caused by direct sunlight. Solution: Move to indirect light.",
+      "Aphids": "Sap-sucking insects. Solution: Insecticidal soap."
+    },
+    "notes": "Colorful trailing plant; easy to propagate."
+  },
+  "Tulip": {
+    "growth": {
+      "sunlight": "Full sun to partial shade",
+      "water": "Water during active growth; reduce after blooming",
+      "soil": "Well-draining sandy loam",
+      "fertilizer": "Bulb fertilizer before flowering"
+    },
+    "diseases": {
+      "Tulip Fire": "Fungal disease causing spots. Solution: Remove infected bulbs.",
+      "Gray Mold": "Caused by humidity. Solution: Improve airflow."
+    },
+    "notes": "Popular spring-flowering bulb plant."
+  },
+  "Venus Flytrap": {
+    "growth": {
+      "sunlight": "Direct sunlight 4–6 hours daily",
+      "water": "Use distilled or rainwater only",
+      "soil": "50% sphagnum peat moss + 50% sand",
+      "fertilizer": "Do not fertilize; feeds on insects"
+    },
+    "diseases": {
+      "Blackened Traps": "Overfeeding or old traps. Solution: Remove dead traps.",
+      "Fungal Infections": "High humidity issue. Solution: Increase airflow."
+    },
+    "notes": "Carnivorous plant; native to wetlands."
+  },
+  "Yucca": {
+    "growth": {
+      "sunlight": "Bright, direct light",
+      "water": "Water when soil is completely dry",
+      "soil": "Sandy, well-drained soil",
+      "fertilizer": "Once a month during summer"
+    },
+    "diseases": {
+      "Root Rot": "Overwatering. Solution: Ensure dry soil between watering.",
+      "Leaf Spot": "Fungal spots. Solution: Fungicide spray."
+    },
+    "notes": "Drought-tolerant, low-maintenance plant."
+  },
+  "ZZ Plant (Zamioculcas zamiifolia)": {
+    "growth": {
+      "sunlight": "Low to medium indirect light",
+      "water": "Water every 2-3 weeks; drought tolerant",
+      "soil": "Well-draining potting soil",
+      "fertilizer": "Every 2-3 months"
+    },
+    "diseases": {
+      "Yellow Leaves": "Overwatering. Solution: Allow soil to dry out.",
+      "Root Rot": "Poor drainage issue. Solution: Repot with gritty mix."
+    },
+    "notes": "Very hardy indoor plant; tolerant of neglect."
+  }
+}
+
+

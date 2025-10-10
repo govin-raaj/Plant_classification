@@ -4,19 +4,32 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 import torch
+import json
+import os
 
-# Create FastAPI app
-app = FastAPI(title="🌿 Plant Species Classifier API")
+# Initialize FastAPI app
+app = FastAPI(title="🌿 Plant Species Classifier API with Info")
 
-# Check if GPU is available
+# Load the trained YOLOv8 model
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"✅ Using device: {device}")
 
-# Load YOLOv8 classification model
-model = YOLO("D:/ML/Plant_classification_proj/training/runs/classify/train/weights/best.pt")  # path to your trained model
+model_path = "D:/ML/Plant_classification_proj/training/runs/classify/train/weights/best.pt"
+model = YOLO(model_path)
 model.to(device)
 
-# List of 30 class names (update according to your dataset)
+# Load plant info JSON
+plant_info_path = "D:/ML/Plant_classification_proj/backend/plant_info.json"  # <-- update path if needed
+
+if os.path.exists(plant_info_path):
+    with open(plant_info_path, "r", encoding="utf-8") as f:
+        plant_info = json.load(f)
+    print("✅ Loaded plant_info.json successfully.")
+else:
+    plant_info = {}
+    print("⚠️ plant_info.json not found. Continuing without extra info.")
+
+# List of classes
 class_names = [
     'African Violet (Saintpaulia ionantha)', 'Aloe Vera', 'Begonia (Begonia spp.)',
     'Birds Nest Fern (Asplenium nidus)', 'Boston Fern (Nephrolepis exaltata)',
@@ -33,26 +46,31 @@ class_names = [
     'Tradescantia', 'Tulip', 'Venus Flytrap'
 ]
 
-
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
-        # Read image
+        # Load and convert image
         img = Image.open(file.file).convert("RGB")
 
-        # Run YOLOv8 inference
+        # Run inference
         results = model.predict(source=np.array(img), imgsz=224, device=device, verbose=False)
 
-        # Extract probabilities and prediction
+        # Extract prediction
         probs = results[0].probs.data.cpu().numpy()
         class_index = int(np.argmax(probs))
         pred_class = class_names[class_index] if class_index < len(class_names) else "Unknown"
         confidence = float(np.max(probs))
 
-        return JSONResponse(content={
+        # Get additional plant info from JSON
+        info = plant_info.get(pred_class, None)
+
+        response = {
             "predicted_class": pred_class,
-            "confidence": round(confidence * 100, 2)
-        })
+            "confidence": round(confidence * 100, 2),
+            "info": info if info else {"message": "No detailed info available for this plant."}
+        }
+
+        return JSONResponse(content=response)
 
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
@@ -60,4 +78,4 @@ async def predict(file: UploadFile = File(...)):
 
 @app.get("/")
 async def root():
-    return {"message": "🌿 Plant Classification API is running!"}
+    return {"message": "🌿 Plant Classification API is running with detailed info!"}
