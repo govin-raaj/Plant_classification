@@ -28,7 +28,7 @@ app.add_middleware(
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"✅ Using device: {device}")
 
-model_path = "D:/ML/Plant_classification_proj/training/runs/classify/train/weights/best.pt"
+model_path = "D:/ML/Plant_classification_proj/final_model/runs/classify/train3/weights/best.pt"
 model = YOLO(model_path)
 model.to(device)
 
