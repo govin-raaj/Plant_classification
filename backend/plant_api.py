@@ -8,33 +8,25 @@ import torch
 import json
 import os
 
-# -------------------------------------------------
-# 🌿 FASTAPI APP CONFIGURATION
-# -------------------------------------------------
+
 app = FastAPI(title="🌿 Plant Species Classifier API with Info")
 
-# Enable CORS for all origins (frontend-friendly)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # or replace * with your frontend URL if needed
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# -------------------------------------------------
-# ⚙️ MODEL & DEVICE SETUP
-# -------------------------------------------------
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"✅ Using device: {device}")
 
-model_path = "D:/ML/Plant_classification_proj/final_model/runs/classify/train3/weights/best.pt"
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Using device: {device}")
+
+model_path = "D:/ML/Plant_classification_proj/final_model/runs/classify/train6/weights/best.pt"
 model = YOLO(model_path)
 model.to(device)
 
-# -------------------------------------------------
-# 📘 LOAD PLANT INFORMATION JSON
-# -------------------------------------------------
 plant_info_path = "D:/ML/Plant_classification_proj/backend/plant_info.json"
 if os.path.exists(plant_info_path):
     with open(plant_info_path, "r", encoding="utf-8") as f:
@@ -44,28 +36,16 @@ else:
     plant_info = {}
     print("⚠️ plant_info.json not found. Continuing without extra info.")
 
-# -------------------------------------------------
-# 🌱 CLASS NAMES (Update based on your dataset)
-# -------------------------------------------------
-class_names = [
-    'African Violet (Saintpaulia ionantha)', 'Aloe Vera', 'Begonia (Begonia spp.)',
-    'Birds Nest Fern (Asplenium nidus)', 'Boston Fern (Nephrolepis exaltata)',
-    'Calathea', 'Cast Iron Plant (Aspidistra elatior)',
-    'Chinese Money Plant (Pilea peperomioides)', 'Christmas Cactus (Schlumbergera bridgesii)',
-    'Chrysanthemum', 'Ctenanthe', 'Dracaena', 'Elephant Ear (Alocasia spp.)',
-    'English Ivy (Hedera helix)', 'Hyacinth (Hyacinthus orientalis)',
-    'Iron Cross begonia (Begonia masoniana)', 'Jade plant (Crassula ovata)',
-    'Money Tree (Pachira aquatica)', 'Orchid', 'Parlor Palm (Chamaedorea elegans)',
-    'Peace lily', 'Poinsettia (Euphorbia pulcherrima)', 'Polka Dot Plant (Hypoestes phyllostachya)',
-    'Ponytail Palm (Beaucarnea recurvata)', 'Pothos (Ivy arum)', 'Prayer Plant (Maranta leuconeura)',
-    'Rattlesnake Plant (Calathea lancifolia)', 'Rubber Plant (Ficus elastica)',
-    'Sago Palm (Cycas revoluta)', 'Schefflera', 'Snake plant (Sanseviera)',
-    'Tradescantia', 'Tulip', 'Venus Flytrap'
-]
+class_names = ['African Violet (Saintpaulia ionantha)', 'Aloe Vera', 'Begonia (Begonia spp.)', 
+               'Birds Nest Fern (Asplenium nidus)', 'Boston Fern (Nephrolepis exaltata)', 'Calathea',
+                 'Cast Iron Plant (Aspidistra elatior)', 'Chinese Money Plant (Pilea peperomioides)', 
+                 'Christmas Cactus (Schlumbergera bridgesii)', 'Dracaena', 'Elephant Ear (Alocasia spp.)', 
+                 'English Ivy (Hedera helix)', 'Hyacinth (Hyacinthus orientalis)', 'Jade plant (Crassula ovata)', 
+                 'Money Tree (Pachira aquatica)', 'Orchid', 'Parlor Palm (Chamaedorea elegans)', 'Peace lily', 
+                 'Poinsettia (Euphorbia pulcherrima)', 'Polka Dot Plant (Hypoestes phyllostachya)', 'Pothos (Ivy arum)', 
+                 'Rubber Plant (Ficus elastica)', 'Schefflera', 'Snake plant (Sanseviera)', 'Tradescantia', 'Tulip']
 
-# -------------------------------------------------
-# 🔍 PREDICTION ENDPOINT
-# -------------------------------------------------
+
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
@@ -88,9 +68,7 @@ async def predict(file: UploadFile = File(...)):
     except Exception as e:
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
-# -------------------------------------------------
-# 🌿 GET ALL PLANTS + BASIC INFO
-# -------------------------------------------------
+
 @app.get("/plants")
 async def get_all_plants():
     """
@@ -106,9 +84,7 @@ async def get_all_plants():
         })
     return {"count": len(plants_list), "plants": plants_list}
 
-# -------------------------------------------------
-# 🏠 ROOT ENDPOINT
-# -------------------------------------------------
+
 @app.get("/")
 async def root():
     return {
