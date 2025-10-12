@@ -7,4 +7,3 @@ training/yolo11n.pt
 training/yolov8n-cls.pt
 final_model/runs/classify/train4
 final_model/runs/classify/train5
-final_model/runs/classify/train6
