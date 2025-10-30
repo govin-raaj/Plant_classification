@@ -1,6 +1,5 @@
 {
   "African Violet (Saintpaulia ionantha)": {
-    "id": 0,
     "scientific_name": "Saintpaulia ionantha",
     "family": "Gesneriaceae",
     "native_region": "Eastern Africa (Tanzania, Kenya)",
@@ -26,7 +25,7 @@
     "notes": "Compact and blooms multiple times a year indoors."
   },
   "Aloe Vera": {
-    "id": 1,
+
     "scientific_name": "Aloe barbadensis miller",
     "family": "Asphodelaceae",
     "native_region": "Arabian Peninsula, Africa",
@@ -52,7 +51,6 @@
     "notes": "Air-purifying and medicinal properties."
   },
   "Begonia (Begonia spp.)": {
-    "id": 2,
     "scientific_name": "Begonia spp.",
     "family": "Begoniaceae",
     "native_region": "Tropical and subtropical regions",
@@ -78,7 +76,6 @@
     "notes": "Great for decorative indoor spaces."
   },
   "Birds Nest Fern (Asplenium nidus)": {
-    "id": 3,
     "scientific_name": "Asplenium nidus",
     "family": "Aspleniaceae",
     "native_region": "Tropical Asia and Polynesia",
@@ -104,7 +101,6 @@
     "notes": "Air purifier; ideal for bathrooms or shaded spaces."
   },
   "Boston Fern (Nephrolepis exaltata)": {
-    "id": 4,
     "scientific_name": "Nephrolepis exaltata",
     "family": "Lomariopsidaceae",
     "native_region": "Tropical regions worldwide",
@@ -130,7 +126,6 @@
     "notes": "Excellent natural air purifier."
   },
   "Calathea": {
-    "id": 5,
     "scientific_name": "Calathea spp.",
     "family": "Marantaceae",
     "native_region": "Tropical Americas",
@@ -156,7 +151,6 @@
     "notes": "Highly decorative and pet-safe plant."
   },
   "Cast Iron Plant (Aspidistra elatior)": {
-    "id": 6,
     "scientific_name": "Aspidistra elatior",
     "family": "Asparagaceae",
     "native_region": "Eastern Asia",
@@ -182,7 +176,6 @@
     "notes": "Perfect for low-light corners and offices."
   },
   "Chinese Money Plant (Pilea peperomioides)": {
-    "id": 7,
     "scientific_name": "Pilea peperomioides",
     "family": "Urticaceae",
     "native_region": "Southern China",
@@ -208,7 +201,6 @@
     "notes": "Popular feng shui plant."
   },
   "Christmas Cactus (Schlumbergera bridgesii)": {
-    "id": 8,
     "scientific_name": "Schlumbergera bridgesii",
     "family": "Cactaceae",
     "native_region": "Brazil",
@@ -234,7 +226,6 @@
     "notes": "Blooms during holiday season; ideal for indoor decoration."
   },
   "Dracaena": {
-    "id": 9,
     "scientific_name": "Dracaena spp.",
     "family": "Asparagaceae",
     "native_region": "Africa and Asia",
@@ -260,7 +251,6 @@
     "notes": "Air-purifying and low-maintenance plant."
   },
   "Elephant Ear (Alocasia spp.)": {
-    "id": 10,
     "scientific_name": "Alocasia spp.",
     "family": "Araceae",
     "native_region": "Tropical Asia and Eastern Australia",
@@ -286,7 +276,6 @@
     "notes": "Ideal as a statement indoor plant."
   },
   "English Ivy (Hedera helix)": {
-    "id": 11,
     "scientific_name": "Hedera helix",
     "family": "Araliaceae",
     "native_region": "Europe and Western Asia",
@@ -312,7 +301,6 @@
     "notes": "Excellent for hanging baskets or trellises indoors."
   },
   "Hyacinth (Hyacinthus orientalis)": {
-    "id": 12,
     "scientific_name": "Hyacinthus orientalis",
     "family": "Asparagaceae",
     "native_region": "Eastern Mediterranean",
@@ -338,7 +326,6 @@
     "notes": "Beautiful and fragrant spring indoor or garden plant."
   },
   "Jade plant (Crassula ovata)": {
-    "id": 13,
     "scientific_name": "Crassula ovata",
     "family": "Crassulaceae",
     "native_region": "South Africa",
@@ -364,7 +351,6 @@
     "notes": "Easy-to-grow indoor succulent."
   },
   "Money Tree (Pachira aquatica)": {
-    "id": 14,
     "scientific_name": "Pachira aquatica",
     "family": "Malvaceae",
     "native_region": "Central and South America",
@@ -390,7 +376,6 @@
     "notes": "Indoor decorative and feng shui plant."
   },
   "Orchid": {
-    "id": 15,
     "scientific_name": "Orchidaceae spp.",
     "family": "Orchidaceae",
     "native_region": "Worldwide in tropical regions",
@@ -416,7 +401,6 @@
     "notes": "Popular ornamental indoor plant."
   },
   "Parlor Palm (Chamaedorea elegans)": {
-    "id": 16,
     "scientific_name": "Chamaedorea elegans",
     "family": "Arecaceae",
     "native_region": "Southern Mexico and Guatemala",
@@ -442,7 +426,6 @@
     "notes": "Easy-care indoor palm for low-light spaces."
   },
   "Peace lily": {
-    "id": 17,
     "scientific_name": "Spathiphyllum spp.",
     "family": "Araceae",
     "native_region": "Tropical Americas and Southeast Asia",
@@ -468,7 +451,6 @@
     "notes": "Elegant, low-maintenance houseplant."
   },
   "Poinsettia (Euphorbia pulcherrima)": {
-    "id": 18,
     "scientific_name": "Euphorbia pulcherrima",
     "family": "Euphorbiaceae",
     "native_region": "Mexico",
@@ -494,7 +476,6 @@
     "notes": "Popular holiday decorative plant."
   },
   "Polka Dot Plant (Hypoestes phyllostachya)": {
-    "id": 19,
     "scientific_name": "Hypoestes phyllostachya",
     "family": "Acanthaceae",
     "native_region": "Madagascar",
@@ -520,7 +501,6 @@
     "notes": "Ideal for colorful indoor arrangements."
   },
   "Pothos (Ivy arum)": {
-    "id": 20,
     "scientific_name": "Epipremnum aureum",
     "family": "Araceae",
     "native_region": "Southeast Asia",
@@ -546,7 +526,6 @@
     "notes": "Excellent beginner indoor plant."
   },
   "Rubber Plant (Ficus elastica)": {
-    "id": 21,
     "scientific_name": "Ficus elastica",
     "family": "Moraceae",
     "native_region": "Southeast Asia",
@@ -572,7 +551,6 @@
     "notes": "Popular indoor tree for offices and homes."
   },
   "Schefflera": {
-    "id": 22,
     "scientific_name": "Schefflera spp.",
     "family": "Araliaceae",
     "native_region": "Taiwan, Hainan, Australia",
@@ -598,7 +576,6 @@
     "notes": "Perfect for indoor corners or office spaces."
   },
   "Snake plant (Sanseviera)": {
-    "id": 23,
     "scientific_name": "Sansevieria spp.",
     "family": "Asparagaceae",
     "native_region": "West Africa",
@@ -624,7 +601,6 @@
     "notes": "Hardy plant suitable for beginners."
   },
   "Tradescantia": {
-    "id": 24,
     "scientific_name": "Tradescantia spp.",
     "family": "Commelinaceae",
     "native_region": "Americas",
@@ -650,7 +626,6 @@
     "notes": "Great for hanging baskets and colorful indoor display."
   },
   "Tulip": {
-    "id": 25,
     "scientific_name": "Tulipa spp.",
     "family": "Liliaceae",
     "native_region": "Central Asia and Turkey",

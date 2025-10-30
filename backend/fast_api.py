@@ -71,9 +71,7 @@ async def predict(file: UploadFile = File(...)):
 
 @app.get("/plants")
 async def get_all_plants():
-    """
-    Returns a list of all plant species and short descriptions.
-    """
+
     plants_list = []
     for plant, details in plant_info.items():
         plants_list.append({
