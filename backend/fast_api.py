@@ -9,7 +9,7 @@ import json
 import os
 
 
-app = FastAPI(title="🌿 Plant Species Classifier API with Info")
+app = FastAPI(title="Plant Species Classifier API with Info")
 
 app.add_middleware(
     CORSMiddleware,
@@ -31,10 +31,10 @@ plant_info_path = "D:/ML/Plant_classification_proj/backend/plant_info.json"
 if os.path.exists(plant_info_path):
     with open(plant_info_path, "r", encoding="utf-8") as f:
         plant_info = json.load(f)
-    print("✅ Loaded plant_info.json successfully.")
+    print("Loaded plant_info.json successfully.")
 else:
     plant_info = {}
-    print("⚠️ plant_info.json not found. Continuing without extra info.")
+    print("plant_info.json not found. Continuing without extra info.")
 
 class_names = ['African Violet (Saintpaulia ionantha)', 'Aloe Vera', 'Begonia (Begonia spp.)', 
                'Birds Nest Fern (Asplenium nidus)', 'Boston Fern (Nephrolepis exaltata)', 'Calathea',
@@ -86,7 +86,7 @@ async def get_all_plants():
 @app.get("/")
 async def root():
     return {
-        "message": "🌿 Plant Classification API with Info and CORS is running!",
+        "message": "Plant Classification API with Info and CORS is running!",
         "endpoints": {
             "/predict": "POST an image to classify",
             "/plants": "GET all plant info"

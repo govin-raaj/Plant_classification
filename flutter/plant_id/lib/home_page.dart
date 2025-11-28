@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     if (_image == null) return;
     setState(() => _loading = true);
     try {
-      var request = http.MultipartRequest('POST', Uri.parse('http://192.168.1.2:8000/predict'));
+      var request = http.MultipartRequest('POST', Uri.parse('http://10.16.46.64:8000/predict'));
       request.files.add(await http.MultipartFile.fromPath('file', _image!.path));
       var streamedResponse = await request.send();
       var response = await http.Response.fromStream(streamedResponse);
@@ -162,7 +162,6 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
  Widget _buildResult() {
   if (_result == null) return SizedBox.shrink();
 
-  // _result should be your parsed API response as a Map
   return AnimatedContainer(
     duration: Duration(milliseconds: 500),
     margin: EdgeInsets.all(16),
